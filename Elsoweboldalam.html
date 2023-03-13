@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>.container{
+            background-color:#f5f5f5;
+            color:#bcbcbc;
+            margin:25px 25px;
+            width: 1200px;
+        }
+        .Jelentkezesi_Urlap{
+            width: 50%;
+            padding: 50px;
+            
+            
+        }
+        .nav-bar{
+            background-color: #000;
+            width: 100%;
+            height: 50px;
+            margin: 0px 0px 0px 30px;
+            position: sticky;
+            top: 0;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-bar_items{
+            color: white;
+            font-size: x-large;
+            font-family: 'Courier New', Courier, monospace;
+            display:flex;
+
+            
+
+        }
+        .label{
+            color: #333366;
+        }
+        </style>
+    </head>
+    <body>
+        <section>
+            <iframe src="https://www.youtube.com/embed/sxodXuAK2jw"width="100%"height="450px"style="margin:0;"></iframe>
+        </section>
+        <nav class="nav-bar">
+            <div class="nav-bar_items">  
+                <a style="margin-right: 10%;" href="#https://oktav.hu/komuves-kepzes"><b>Oktav.hu</b></a>
+                <a style="margin-right: 10%;" href="#https://www.police.hu/hu/a-rendorsegrol/kepzes/rendorjaror-kepzes"><b>Police.hu</b></a>
+                <a href="#https://focusoktatas.hu/tanfolyamok/szakacs?gclid=Cj0KCQiAjbagBhD3ARIsANRrqEuBfJykzgqDsL_GPgUAI9M6_9xqedXKW42FLCG__XSAQeddPFP9ujoaAthJEALw_wcB"><b>Focusoktatas.hu</b></a>
+            </div>
+        </nav>
+        <section class="container">
+            <h1 style="text-align: center; font-size: 75px;">Jelentkezes a kepzesre</h1>
+            <div class="text-box">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium iusto optio eum doloribus et maxime excepturi iure, voluptate, enim, quae totam. Ad saepe voluptatem eligendi doloribus libero tempora iste!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, ducimus quidem. Itaque, reiciendis voluptatum aperiam, in perspiciatis incidunt vel consequuntur quibusdam rem numquam ullam corporis eligendi deserunt facere? Quasi, velit.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sed maxime reiciendis voluptatum distinctio quae natus cupiditate quis sint aperiam! Facilis, iste? A ab porro nesciunt officiis doloremque veritatis magni!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic voluptate qui distinctio, labore corrupti consectetur sunt ipsa ab odit, ut dolores! Est labore delectus eum voluptatibus, beatae architecto porro fugit?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore doloribus fugiat maiores facere aut ut saepe. Eum molestias aliquam quo facere. Necessitatibus obcaecati veritatis eum esse nulla nobis, est quasi!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa assumenda, officiis commodi dicta iusto saepe porro autem vitae quam quasi atque odit. Sapiente sed eum accusamus enim illum aut possimus.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo blanditiis illum fuga quasi, alias id sit ratione praesentium. Minus ratione accusantium error labore maiores, necessitatibus vel voluptatibus excepturi commodi omnis?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo tempora accusantium sed debitis hic fugiat odit aut consequuntur, tenetur itaque ullam est alias? Dolor fuga animi veritatis quia beatae?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium dolorem nihil omnis, non earum velit ipsum expedita a modi reprehenderit quisquam iusto dolore rerum ut quam ad libero delectus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A esse architecto ducimus, facere repellendus laudantium accusamus provident voluptatem hic non magnam voluptate sunt corrupti dolores adipisci tenetur tempore iure dolorem.
+
+                <img src="https://picsum.photos/id/237/200/300" alt="Kutyus">
+            </div>
+        </section>
+        <form class="Jelentkezesi_Urlap"name="Jelentkezesi Urlap">
+            <fieldset style="border: 2px solid brown;
+            background-color: rgba(64, 212, 27, 0.6);">
+                <legend>Jelentkezesi Urlap</legend>
+            <label class="label" for="vezeteknev">Vezeteknev</label>
+            <input type="text"id="vezeteknev"name="vezeteknev" placeholder="Ird be a vezetekneved"required>
+            <br>
+            <label class="label"for="keresztnev">Keresztnev</label>
+            <input type="text"id="keresztnev"name="keresztnev" placeholder="Ird be a keresztneved" required>
+            <br>
+            <label class="label"for="e-mail cim">E-mail cim</label>
+            <input type="email"id=e-mail placeholder="pelda@bela.com" required>
+            <br>
+            <label class="label"for="telefonszam">Telefonszam</label>
+            <input type="tel"maxlength="11" required id="tel" placeholder="06201234567">
+            <br>
+            <label class="label"for="becenev">Becenev</label>
+            <input type="text" id="becenev" name="becenev" maxlength="5">
+            <br>
+            <label class="label"for="jelszo">Jelszo</label>
+            <input type="password" id="jelszo" maxlength="8" required>
+            <br>
+            <label class="label"for="kivalasztas">Valassz szakmat</label>
+            <select name="szakmak" id="szakmak">
+                <option value="Front-end Developer">Front-end Developer</option>
+                <option value="Back-end Developer">Back-end Developer</option>
+                <option value="Szakacs">Szakacs</option>
+            </select>
+            <br>
+            <label class="label"for="chbox">Elfogadom az adatvedelmi szabalyzatot</label>
+            <input type="checkbox" required>
+            <br>
+            <label class="label"for="submit">Jelentkezem a kijelolt szakmara:</label>
+            <input type="submit" value="Kuldes">
+        </fieldset>
+        </form>
+        <section class="footer"
+        style="display: flex; justify-content: center;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, vel animi. Dolor beatae similique laudantium ullam rem voluptate architecto dignissimos magni non alias fuga blanditiis error mollitia, ab, accusamus et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam labore accusantium officiis molestiae, cupiditate nam. Possimus incidunt voluptas repellendus quam ducimus! Ut temporibus voluptatum necessitatibus mollitia libero tempore quidem deserunt?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odit exercitationem dolorem officiis voluptates veniam distinctio aliquam quaerat quia sequi minima porro ipsum quae tempore suscipit nam alias illo nobis.</p>
+        </section>
+    </body>
